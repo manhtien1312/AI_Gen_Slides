@@ -126,7 +126,6 @@ def update_presentation(pie_data, bar_data, template_path, output_path):
     print(f"Presentation saved to {output_path}")
 
 if __name__ == "__main__":
-    
     # df = get_data_from_supabase()
     # Construct the path to the data file relative to the script's location
     script_dir = os.path.dirname(__file__)
